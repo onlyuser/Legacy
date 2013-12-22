@@ -1,0 +1,30 @@
+LIBRARY     "DexGL"
+DESCRIPTION 'DexGL Windows Dynamic Link Library'
+
+EXPORTS
+
+DexGL_regUserFunc
+DexGL_sum
+DexGL_echo
+DexGL_load
+DexGL_unload
+DexGL_resize
+DexGL_clear
+DexGL_paint
+DexGL_saveImage
+DexGL_listGen
+DexGL_listKill
+DexGL_texGen
+DexGL_texKill
+DexGL_texBind
+DexGL_fontGen
+DexGL_fontKill
+DexGL_fontPrint
+DexGL_view
+DexGL_model
+DexGL_light
+DexGL_brush
+DexGL_blend
+DexGL_mode
+DexGL_fog
+DexGL_tri

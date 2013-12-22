@@ -1,0 +1,17 @@
+LIBRARY     "DexCC"
+DESCRIPTION 'DexCC Windows Dynamic Link Library'
+
+EXPORTS
+
+DexCC_regUserFunc
+DexCC_sum
+DexCC_echo
+DexCC_setModeVB
+DexCC_reset
+DexCC_load
+DexCC_toString
+DexCC_buildTable
+DexCC_parse
+DexCC_getFirst
+DexCC_getFollow
+DexCC_getItems

@@ -1,0 +1,119 @@
+// ================
+// NO VARS
+// ================
+
+A:-~B.
+B:-~C.
+
+C.
+
+// ================
+// MALE-FEMALE
+// ================
+
+female[X]:-person[X]*~male[X].
+
+person[john].
+person[mary].
+male[john].
+
+// ================
+// GET-WANT
+// ================
+
+get[X,Y]:-want[X,Y]*at[X,L]*at[Y,L].
+
+want[john,book].
+at[john,market].
+at[book,library].
+
+want[david,apple].
+at[david,market].
+at[apple,market].
+
+// ================
+// FAMILY
+// ================
+
+parent[X,Y]:-father[X,Y].
+parent[X,Y]:-mother[X,Y].
+son[X,Y]:-parent[Y,X]*male[X].
+
+father[phil,charlie].
+mother[liz,charlie].
+male[charlie].
+
+// ================
+// GROUPING
+// ================
+
+c[X,Y]:-a[X]*b[Y]*eval[X>Y].
+
+a[10].
+a[30].
+a[50].
+b[20].
+b[40].
+
+// ================
+// SORTING
+// ================
+
+exists_more[G,P]:-val[G,Y,Q]*eval[Q>P].
+most[X,G]:-val[G,X,P]*~exists_more[G,P].
+oldest[X]:-most[X,age].
+
+val[age,jerry,21].
+val[age,steven,17].
+val[age,jennifer,7].
+
+// ================
+// ARITHMETIC A
+// ================
+
+a[X]:-b[X]*eval[2+3*4==X].
+
+b[14].
+b[20].
+
+// ================
+// ARITHMETIC B
+// ================
+
+a[X]:-b[X]*eval[X>3].
+
+b[3].
+b[4].
+
+// ================
+// EVEN-ODD
+// ================
+
+even[X]:-num[Y]*eval[X==2*Y].
+odd[X]:-num[X]*~even[X].
+
+num[1].
+num[2].
+num[3].
+num[4].
+num[5].
+num[6].
+
+// ================
+// PRIMES
+// ================
+
+factor[X,Y]:-num[K]*eval[Y==X*K].
+not_prime[X]:-num[Y]*factor[Y,X]*eval[(Y!=1)&&(Y!=X)].
+prime[X]:-num[X]*~not_prime[X].
+
+num[1].
+num[2].
+num[3].
+num[4].
+num[5].
+num[6].
+
+// ================
+// EOF
+// ================

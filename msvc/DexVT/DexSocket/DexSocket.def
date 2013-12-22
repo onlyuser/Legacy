@@ -1,0 +1,14 @@
+LIBRARY     "DexSocket"
+DESCRIPTION 'DexSocket Windows Dynamic Link Library'
+
+EXPORTS
+
+DexSocket_regUserFunc
+DexSocket_sum
+DexSocket_echo
+DexSocket_setModeVB
+DexSocket_open
+DexSocket_close
+DexSocket_send
+DexSocket_recv
+DexSocket_host

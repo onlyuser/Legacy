@@ -1,0 +1,11 @@
+LIBRARY     "DexWndProc"
+DESCRIPTION 'DexWndProc Windows Dynamic Link Library'
+
+EXPORTS
+
+DexWndProc_regUserFunc
+DexWndProc_sum
+DexWndProc_echo
+DexWndProc_regEventsEx
+DexWndProc_regEvents
+DexWndProc_wndProc

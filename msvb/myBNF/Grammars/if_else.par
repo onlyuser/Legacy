@@ -1,0 +1,44 @@
+"dog" -> "if x"
+"qwe" -> "x"
+
+'_A' := 'a'
+'_B' := 'a'
+'_expr' := 'x'
+
+1	S := A
+2	S := B
+3	S := stmt
+4	A := '_A'
+5	B := '_B'
+6	stmt := expr
+7	expr := '_expr'
+8	stmt := 'if' expr 'then' stmt
+9	stmt := 'if' expr 'then' stmt 'else' stmt
+
+	$	S	A	B	stmt	'_A'	'_B'	'if'	expr	'then'	'else'	'_expr'
+1		2	3	4	5	s6	s7	s8	9			s10
+2	acc											
+3	r1											
+4	r2											
+5	r3											
+6	r4											
+7	r5											
+8									11			s12
+9	r6											
+10	r7											
+11										s13		
+12										r7		
+13					14			s15	16			s17
+14	r8										s19	
+15									20			s12
+16	r6										r6	
+17	r7										r7	
+18	r8											
+19					21			s8	9			s10
+20										s22		
+21	r9											
+22					23			s15	16			s17
+23	r8										s25/r8	
+24	r8										r8	
+25					26			s15	16			s17
+26	r9										r9	

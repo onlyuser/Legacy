@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DexView - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\jerry\LOCALS~1\Temp\RSP1D.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEXVIEW_EXPORTS" /Fp"Debug/DexView.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\VC\Dex3D\2003\DexVT\DexView\DexView.cpp"
+"D:\code\VC\Dex3D\2003\DexVT\DexView\Exports.cpp"
+"D:\code\VC\Dex3D\2003\DexVT\DexView\Mutex.cpp"
+"D:\code\VC\Dex3D\2003\DexVT\DexView\Thread.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\jerry\LOCALS~1\Temp\RSP1D.tmp" 
+Creating temporary file "C:\DOCUME~1\jerry\LOCALS~1\Temp\RSP1E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/DexView.pdb" /debug /machine:I386 /def:".\DexView.def" /out:"Debug/DexView.dll" /implib:"Debug/DexView.lib" /pdbtype:sept 
+.\Debug\DexView.obj
+.\Debug\Exports.obj
+.\Debug\Mutex.obj
+.\Debug\Thread.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\jerry\LOCALS~1\Temp\RSP1E.tmp"
+<h3>Output Window</h3>
+Compiling...
+DexView.cpp
+Exports.cpp
+Mutex.cpp
+Thread.cpp
+Linking...
+   Creating library Debug/DexView.lib and object Debug/DexView.exp
+
+
+
+<h3>Results</h3>
+DexView.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

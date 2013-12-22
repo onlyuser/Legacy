@@ -1,0 +1,10 @@
+LIBRARY     "DexView"
+DESCRIPTION 'DexView Windows Dynamic Link Library'
+
+EXPORTS
+
+DexView_regUserFunc
+DexView_sum
+DexView_echo
+DexView_launchEx
+DexView_launch

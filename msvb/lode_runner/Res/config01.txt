@@ -1,0 +1,36 @@
+// game settings
+SpriteFile = sprite01_big.bmp
+ScriptFile = script01.txt
+UnitLength = 12
+SpriteSize = 8 16
+LevelSize = 16 16
+ViewSize = 6 3
+TickInterv = 50
+ActorSpeed = 0.25
+ActorGravity = 1
+BrickTime = 30
+GoldTime = 10
+ActorTime = 2
+BombTime = 30
+WinSound = yahoo.wav
+LoseSound = moo.wav
+PlotSound = click.wav
+ScrollSound = talkend_b.wav
+StartLevel = level01.txt
+
+// grid codes
+Void = a0
+Brick = a1
+Metal = a2
+Ladder = a3
+Rail = a4
+BrickInvis = a5
+Cave = a6
+Gold = c5
+Player = f4
+Enemy = j4
+Hide = f5
+RedBomb = m0
+GreenBomb = n0
+YellowBomb = o0
+CyanBomb = p0
