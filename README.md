@@ -1,28 +1,30 @@
-Archives
-========
+Legacy
+======
 
 Copyright (C) 1995-2005 Jerry Chen <mailto:onlyuser@gmail.com>
 
 About:
 ------
 
-Archives is a collection of legacy projects built using defunct tools.
+Legacy is a collection of legacy projects built using defunct tools.
 
 **Currently, it includes the following:**
 
-* msvb/Dex3d       -- A 3d engine in Visual Basic
-* msvb/lode_runner -- A Lode Runner clone in Visual Basic
-* msvb/myBNF       -- A parser generator in Visual Basic
-* msvb/Prolog      -- A Prolog interpreter in Visual Basic
-* msvb/VBO         -- An Othello implementation in Visual Basic
-* msvb/DexCC       -- A parser generator in Visual C++
-* msvc/DexVT       -- A 3d engine in Visual C++
+* msvb/Dex3d       -- 3d engine in Visual Basic
+* msvb/lode_runner -- Lode Runner clone in Visual Basic
+* msvb/myBNF       -- Parser generator in Visual Basic
+* msvb/Prolog      -- Prolog interpreter in Visual Basic
+* msvb/VBO         -- Othello game in Visual Basic
+* msvb/DexCC       -- Parser generator in C++
+* msvc/DexVT       -- 3d engine in C++
+* msvc/ksom        -- K-means self-organizing map in C++
+* msvc/N_Net       -- Backpropagation neural network in C++
 
 Requirements:
 -------------
 
-Visual Basic 5.0
-Visual C++ 5.0
+MS Visual Basic 5.0
+MS Visual C++ 5.0
 
 Make targets:
 -------------
@@ -52,4 +54,4 @@ References:
 Keywords:
 ---------
 
-    3D engine, Lode Runner, Othello, Prolog, parser generator, Visual Basic, Visual C++
+    3D engine, Lode Runner, Othello, parser generator, Prolog, self-organizing map, neural network, Visual Basic

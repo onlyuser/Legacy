@@ -1,0 +1,28 @@
+LIBRARY     "ksom"
+DESCRIPTION 'ksom Windows Dynamic Link Library'
+
+EXPORTS
+
+regUserFunc
+ksom_sum
+ksom_echo
+ksom_echo2
+ksom_test
+ksom_load
+ksom_loadMatrix
+ksom_tallyMatrix
+ksom_verify
+ksom_unload
+ksom_clear
+ksom_reset
+ksom_getGroupCnt
+ksom_getGroupSize
+ksom_getGroupMember
+ksom_getGroupKernel
+ksom_getGroupInfo
+ksom_getGroupError
+ksom_getGroupMemberError
+ksom_exec
+ksom_execBatch
+ksom_simplify
+ksom_print
