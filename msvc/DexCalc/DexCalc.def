@@ -1,0 +1,18 @@
+LIBRARY     "DexCalc"
+DESCRIPTION 'DexCalc Windows Dynamic Link Library'
+
+EXPORTS
+
+DexCalc_regUserFunc
+DexCalc_sum
+DexCalc_echo
+DexCalc_setModeVB
+DexCalc_changeBse
+DexCalc_enterScpe
+DexCalc_exitScope
+DexCalc_reset
+DexCalc_setTurbo
+DexCalc_compile
+DexCalc_eval
+DexCalc_defVar
+DexCalc_undefVar

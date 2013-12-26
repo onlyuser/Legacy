@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DexCalc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\jerry\LOCALS~1\Temp\RSP13B.tmp" with contents
+[
+/nologo /MTd /w /W0 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEXCALC_EXPORTS" /Fp"Debug/DexCalc.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\VC\New\DexCalc\Calc_Util.cpp"
+"D:\code\VC\New\DexCalc\DexCalc.cpp"
+"D:\code\VC\New\DexCalc\Exception.cpp"
+"D:\code\VC\New\DexCalc\Exports.cpp"
+"D:\code\VC\New\DexCalc\String.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\jerry\LOCALS~1\Temp\RSP13B.tmp" 
+Creating temporary file "C:\DOCUME~1\jerry\LOCALS~1\Temp\RSP13C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/DexCalc.pdb" /debug /machine:I386 /def:".\DexCalc.def" /out:"Debug/DexCalc.dll" /implib:"Debug/DexCalc.lib" /pdbtype:sept 
+.\Debug\Calc_Util.obj
+.\Debug\DexCalc.obj
+.\Debug\Exception.obj
+.\Debug\Exports.obj
+.\Debug\String.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\jerry\LOCALS~1\Temp\RSP13C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Calc_Util.cpp
+DexCalc.cpp
+Exception.cpp
+Exports.cpp
+String.cpp
+Linking...
+   Creating library Debug/DexCalc.lib and object Debug/DexCalc.exp
+
+
+
+<h3>Results</h3>
+DexCalc.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

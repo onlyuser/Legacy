@@ -15,7 +15,8 @@ Legacy is a collection of legacy projects built using defunct tools.
 * msvb/myBNF       -- Parser generator in Visual Basic
 * msvb/Prolog      -- Prolog interpreter in Visual Basic
 * msvb/VBO         -- Othello game in Visual Basic
-* msvb/DexCC       -- Parser generator in C++
+* msvc/DexCalc     -- Shunting-yard calculator in C++
+* msvc/DexCC       -- Parser generator in C++
 * msvc/DexVT       -- 3d engine in C++
 * msvc/ksom        -- K-means self-organizing map in C++
 * msvc/N_Net       -- Backpropagation neural network in C++
