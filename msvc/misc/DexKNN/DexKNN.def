@@ -1,0 +1,17 @@
+LIBRARY     "DexKNN"
+DESCRIPTION 'DexKNN Windows Dynamic Link Library'
+
+EXPORTS
+
+DexKNN_regFuncUser
+DexKNN_regFuncClip
+DexKNN_sum
+DexKNN_echo
+DexKNN_reset
+DexKNN_build
+DexKNN_find
+DexKNN_genMesh2D
+DexKNN_genRoadmap
+DexKNN_genPath
+DexKNN_cluster
+DexKNN_toString
