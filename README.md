@@ -1,7 +1,7 @@
 Legacy
 ======
 
-Copyright (C) 1995-2005 Jerry Chen <mailto:onlyuser@gmail.com>
+Copyright (C) 1995-2005 <mailto:onlyuser@gmail.com>
 
 About:
 ------
