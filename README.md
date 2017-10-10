@@ -3,8 +3,8 @@ Legacy
 
 Copyright (C) 1995-2005 <mailto:onlyuser@gmail.com>
 
-About:
-------
+About
+-----
 
 Legacy is a collection of legacy projects built using defunct tools.
 
@@ -21,19 +21,19 @@ Legacy is a collection of legacy projects built using defunct tools.
 * msvc/ksom        -- K-means self-organizing map in C++
 * msvc/N_Net       -- Backpropagation neural network in C++
 
-Requirements:
--------------
+Requirements
+------------
 
 MS Visual Basic 5.0
 MS Visual C++ 5.0
 
-Make targets:
--------------
+Make Targets
+------------
 
 N/A
 
-References:
------------
+References
+----------
 
 <dl>
     <dt>"codeguru.com -- Dex3D - Fully Functional VB6 3D Engine"</dt>
@@ -52,7 +52,7 @@ References:
     <dd>http://www.conradshome.com/davidg/vbasic.php</dd>
 </dl>
 
-Keywords:
----------
+Keywords
+--------
 
     3D engine, Lode Runner, Othello, parser generator, Prolog, self-organizing map, neural network, Visual Basic
